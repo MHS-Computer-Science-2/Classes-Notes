@@ -12,7 +12,7 @@ public:
     int numSides;
     int sideLength;
 
-    // Compute and return the permiter of the polygon
+    // Compute and return the perimiter of the polygon
     int getPerimeter() {
         return numSides * sideLength;
     }
@@ -44,7 +44,7 @@ int main()
     hex.name = "Hexagon";
     hex.numSides = 6;
     hex.sideLength = 11;
-    cout << "The perimeter of our triangle is " << hex.getPerimeter() << endl;
+    cout << "The perimeter of our hexagon is " << hex.getPerimeter() << endl;
 
     //Call the display function on each object
     tri.display();
