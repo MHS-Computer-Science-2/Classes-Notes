@@ -23,6 +23,10 @@ int main()
 
 
     //You try: Make a hexagon with side length 11 and display the perimeter
+    
+    
+    
+    //Call the display function on each object
 
 
     system("pause");
